@@ -37,5 +37,6 @@ class DiscountCalculatorTest {
                 InvalidPurchaseException.class,
                 () -> calculator.calculateFinalPrice(-10, true)
         );
+
     }
 }
